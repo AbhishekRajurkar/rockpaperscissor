@@ -12,12 +12,10 @@ import static org.mockito.Mockito.when;
 @RunWith(MockitoJUnitRunner.class)
 public class GamePlayServiceTest {
 
-    //private GamePlayService gamePlayService;
     private GamePlayService spyPlayService;
 
     @Before
     public void init() {
-       // gamePlayService = new GamePlayService();
         spyPlayService = spy(GamePlayService.class);
     }
 
